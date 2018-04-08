@@ -1,0 +1,20 @@
+.card {
+	width: 15rem;
+}
+
+.card .card-header,
+.card .publish-date,
+.card .meta,
+.card .meta .author {
+	display: flex;
+	align-items: center;
+}
+
+.card .meta,
+.card .card-header {
+	justify-content: space-between;
+}
+
+.card .actions {
+	color: var(--light-grey);
+}
