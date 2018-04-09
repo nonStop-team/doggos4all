@@ -16,6 +16,15 @@
 	justify-content: center;
 }
 
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.justify-content-around{
+	justify-content: space-around;
+}
+
 .justify-content-start{
 	justify-content: flex-start;
 }
@@ -34,6 +43,18 @@
 
 .align-items-end {
 	align-items: flex-end;
+}
+
+.align-self-center {
+	align-self: center;
+}
+
+.align-self-start{
+	align-self: flex-start;
+}
+
+.align-self-end {
+	align-self: flex-end;
 }
 
 .grid {

@@ -13,17 +13,19 @@
 </head>
 
 <body>
-    <nav class="flex-row " id="navbar">
+    <nav class="flex-row justify-content-between" id="navbar">
         <!-- javascriptzaso abajo para soltar la sidebar-->
-        <i class="material-icons justify-content-start">dehaze</i>
+        <div class="left align-items-center">
+            <i class="material-icons">dehaze</i>
 
 
-        <form class="user-info justify-content-center" action="#" method="GET">
-            <i class="material-icons">search</i>
-            <input class="input-text" type="text" name="search" id="" placeholder="Buscar">
-        </form>
+            <form class="user-info" action="#" method="GET">
+                <i class="material-icons">search</i>
+                <input class="input-text" type="text" name="search" id="" placeholder="Buscar">
+            </form>
+        </div>
     
-        <div class="justify-content-end">
+        <div class="right align-items-center">
             <i class="material-icons">face</i>
             
                 Usuario
