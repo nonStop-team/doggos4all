@@ -9,7 +9,7 @@ body{
     background: var(--blue);
     color: var(--clear-grey);
     margin: 0;
-    /* padding: 2%; */
+    padding: 1% 5%; 
 }
 
 #navbar * {
