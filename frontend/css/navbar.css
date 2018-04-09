@@ -4,3 +4,13 @@
     background: var(--blue);
     color: var(--clear-grey);
 }
+
+.input-text{
+    background: var(--light-blue);
+    color: var(--clear-grey);
+}
+
+/* alfred tips */
+form user-info {position: relative;}
+user-info input {position: absolute;} 
+user-info i  {position: absolute;}
