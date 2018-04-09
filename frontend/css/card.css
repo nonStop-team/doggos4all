@@ -1,7 +1,11 @@
 .card {
-	width: 24rem;
-	border-radius: 0.1rem;
+	width: 24em;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.thumbnail img,
+.card {
+	border-radius: 2px;
 }
 .card .body {
 	padding: 1rem;
