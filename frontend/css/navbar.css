@@ -1,6 +1,6 @@
 body{
+    margin: 0%;
     padding: 0%;
-    background: red;
 }
 
 #navbar{
@@ -8,12 +8,12 @@ body{
     width: 100%;
     background: var(--blue);
     color: var(--clear-grey);
-    margin: 0%;
+    margin: 0;
     /* padding: 2%; */
 }
 
 #navbar * {
-    margin: 0%;
+    margin: 0;
     padding: 0;
 }
 
