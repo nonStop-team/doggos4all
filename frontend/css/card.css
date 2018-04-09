@@ -1,5 +1,10 @@
 .card {
-	width: 15rem;
+	width: 24rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card .body {
+	padding: 1rem;
 }
 
 .card .card-header,
@@ -15,6 +20,53 @@
 	justify-content: space-between;
 }
 
-.card .actions {
-	color: var(--light-grey);
+.card .actions,
+.card .publish-date,
+.card .author {
+	color: var(--grey);
+}
+
+.card i {
+	margin: 0 0.5rem;
+}
+
+.tags {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	grid-gap: 0 0.5rem;
+}
+
+.tag {
+	background-color: var(--light-grey);
+	border-radius: 1rem;
+	padding: 0.3rem 0.56rem;
+	font-size: 0.8em;
+}
+
+.card .actions i {
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.card .actions .fav:hover {
+	color: red;
+}
+
+.card .actions .share:hover {
+	color: var(--darker-grey);
+}
+
+.card-title {
+	font-size: 1.2em;
+}
+
+.card-description {
+	margin: 1rem 0;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: auto;
+	max-height: 15rem;
 }
