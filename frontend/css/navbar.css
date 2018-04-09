@@ -1,6 +1,5 @@
 #navbar{
     display: flex;
-    width: 98vw;
     background: var(--blue);
     color: var(--clear-grey);
     margin: 0;
