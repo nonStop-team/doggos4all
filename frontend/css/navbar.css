@@ -23,6 +23,6 @@ body{
 }
 
 /* alfred tips */
-form user-info {position: relative;}
-user-info input {position: absolute;} 
-user-info i  {position: absolute;}
+form .user-info {position: relative;}
+.user-info input {position: absolute;} 
+.user-info i  {position: absolute;}
