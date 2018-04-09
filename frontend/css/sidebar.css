@@ -1,0 +1,31 @@
+
+.sideDog {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(238, 238, 238);
+    border-right: 1px solid rgb(131, 131, 131);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+a.sidebar-button {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #252525;
+    display: block; 
+
+}
+
+a.post-button {
+    font-size: 25px;
+}
+
+a.wooftion-button {
+    font-size: 20px;
+
+}
